@@ -1,0 +1,15 @@
+negativeDictionary.txt contains all words and occurrences found in the files in the train/neg folder.
+positiveDictionary.txt contains all words and occurrences found in the files in the train/pos folder.
+These files can be recreated using the "makeDictionaries.py"-file. You'll have to change the paths to the folders of the training sets.
+
+How to run code:
+    Put the file you want to run in the project folder
+    Go to terminal (we used the one in PyCharm)
+    Navigate to project folder
+    Write: python NBCReview.py [filename].txt
+
+    The output should look something like this:
+        >python NBCReview.py 9_1.txt
+        Positive score:  -741.1894996120225
+        Negative score:  -708.8286720203331
+        This is a negative review!
